@@ -3,6 +3,9 @@ package com.example.activity7.room
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ * Entity yang merepresentasikan tabel tblSiswa pada Room Database.
+ */
 @Entity(tableName = "tblSiswa")
 data class Siswa(
     @PrimaryKey(autoGenerate = true)

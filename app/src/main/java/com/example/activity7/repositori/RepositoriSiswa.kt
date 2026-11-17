@@ -4,6 +4,9 @@ import com.example.activity7.room.Siswa
 import com.example.activity7.room.SiswaDao
 import kotlinx.coroutines.flow.Flow
 
+/**
+ * Kontrak repositori untuk mengakses dan menyimpan data siswa dari sumber data lokal.
+ */
 interface RepositoriSiswa {
     fun getAllSiswaStream(): Flow<List<Siswa>>
     suspend fun insertSiswa(siswa: Siswa)

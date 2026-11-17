@@ -10,6 +10,9 @@ import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 
+/**
+ * ViewModel untuk mengelola state daftar siswa pada halaman utama (HomeScreen).
+ */
 class HomeViewModel(private val repositoriSiswa: RepositoriSiswa) : ViewModel() {
 
     companion object {
